@@ -37,3 +37,14 @@ Scripts e docs deste repo: [MIT](LICENSE). Os componentes que ele instala mantê
 ---
 
 *"Miner de um jeito fácil" — agora no bolso. Enquadramento honesto: hobby e educação; retorno esperado ~zero.*
+
+
+## 📸 Screenshots
+
+Capturas reais de um **motorola moto g(60)s minerando a ~47 MH/s via Termux** (CH-CPU-ANDROID), com o Fleet enxergando as placas ESP32 e o Mac via peers estáticos.
+
+| | Desktop | Mobile |
+|---|---|---|
+| **Home** | ![Home](docs/screenshots/android-home-desktop.png) | <img src="docs/screenshots/android-home-mobile.png" width="260"> |
+| **Fleet** | ![Fleet](docs/screenshots/android-fleet-desktop.png) | <img src="docs/screenshots/android-fleet-mobile.png" width="260"> |
+| **Config** | ![Config](docs/screenshots/android-config-desktop.png) | <img src="docs/screenshots/android-config-mobile.png" width="260"> |
