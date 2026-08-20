@@ -30,7 +30,7 @@ fi
 cd criptohost_cpuminer
 
 echo "==> Build (aarch64 + crypto)…"
-./ch/build-android.sh
+bash ./ch/build-android.sh
 
 echo
 echo "✅ Pronto. Antes de minerar, segure a CPU acordada:"
