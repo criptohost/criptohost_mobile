@@ -36,5 +36,5 @@ O menu é o mesmo dos PCs: wallet, pool (DGB hmpool default), worker, threads, e
 
 ## Fleet na mesma rede
 
-- **O celular nos outros dashboards**: o agent anuncia `_criptohost._tcp` via mDNS. O Android às vezes bloqueia multicast (depende do fabricante); se o celular não aparecer sozinho no Fleet dos outros nós, adicione-o por IP no `ch/peers.conf` de qualquer PC (veja `ch/peers.conf.example` no criptohost_cpuminer).
+- **O celular nos outros dashboards**: o agent anuncia `_criptohost._tcp` via mDNS. O Android às vezes bloqueia multicast (depende do fabricante); se o celular não aparecer sozinho no Fleet dos outros nós, adicione-o por IP no `ch/peers.conf` de qualquer PC — editável direto pela tela de Fleet (card "Fleet Peers") (veja `ch/peers.conf.example` no criptohost_cpuminer).
 - **Os outros no dashboard do celular**: acesse `http://localhost:8091/fleet.html` no próprio aparelho (ou de qualquer máquina: `http://<ip-do-celular>:8091`). Se a descoberta mDNS falhar no Android, crie `~/criptohost_cpuminer/ch/peers.conf` com os IPs dos seus nós — o Fleet os consulta diretamente.
