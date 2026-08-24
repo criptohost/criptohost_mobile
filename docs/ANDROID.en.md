@@ -34,6 +34,10 @@ The menu is the same as on PCs: wallet, pool (DGB hmpool default), worker, threa
 - `termux-wake-lock` avoids Doze; some vendors (Xiaomi/Samsung) still kill processes — disable battery optimization for Termux in Settings.
 - Project framing: **educational** — expected return is ~zero (see the ecosystem README).
 
+## Updating the node (without touching the device)
+
+On the dashboard, the **Update node** button (next to Restart miner) pulls from GitHub, rebuilds if needed and restarts everything by itself — no Termux required. The phone drops for ~10 s and comes back updated.
+
 ## Fleet on the same network
 
 - **The phone on other dashboards**: the agent announces `_criptohost._tcp` via mDNS. Android sometimes blocks multicast (vendor-dependent); if the phone doesn't appear on other nodes' Fleet by itself, add it by IP in any PC's `ch/peers.conf` — editable right on the Fleet page ("Fleet Peers" card) (see `ch/peers.conf.example` in criptohost_cpuminer).

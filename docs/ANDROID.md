@@ -34,6 +34,10 @@ O menu é o mesmo dos PCs: wallet, pool (DGB hmpool default), worker, threads, e
 - `termux-wake-lock` evita o Doze; ainda assim alguns fabricantes (Xiaomi/Samsung) matam processos — desative a otimização de bateria para o Termux nas configurações.
 - Enquadramento do projeto: **educacional** — o retorno esperado é ~zero (ver README do ecossistema).
 
+## Atualizando o nó (sem tocar no aparelho)
+
+No dashboard, o botão **Update node** (ao lado de Restart miner) faz o `git pull`, recompila se necessário e reinicia tudo sozinho — sem abrir o Termux. O celular some do ar por ~10 s e volta atualizado.
+
 ## Fleet na mesma rede
 
 - **O celular nos outros dashboards**: o agent anuncia `_criptohost._tcp` via mDNS. O Android às vezes bloqueia multicast (depende do fabricante); se o celular não aparecer sozinho no Fleet dos outros nós, adicione-o por IP no `ch/peers.conf` de qualquer PC — editável direto pela tela de Fleet (card "Fleet Peers") (veja `ch/peers.conf.example` no criptohost_cpuminer).
