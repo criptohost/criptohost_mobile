@@ -71,7 +71,7 @@ Full guide (per-device performance, battery, Doze): [docs/ANDROID.en.md](docs/AN
 | [criptohost_cpuminer](https://github.com/criptohost/criptohost_cpuminer) | Windows, Linux and macOS (CPU) | 20–165 MH/s |
 | **criptohost_mobile** (this one) | Android via Termux (iOS = panel) | ~47 MH/s |
 
-Android multicast usually blocks mDNS discovery — use **static peers** (`ch/peers.conf` in the cpuminer repo, one `ip[:port]` per line) so the phone can see and be seen.
+Android multicast usually blocks mDNS discovery — the answer is the **fleet peers list**: edit it on the Fleet page of **any** node (one `ip[:port] [token]` per line; the token grants access to internet-exposed nodes) and every other node — the phone included — syncs it within ~1 min.
 
 ## ❓ Honest questions
 
