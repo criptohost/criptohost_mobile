@@ -43,7 +43,7 @@ Real captures from a motorola moto g(60)s mining at ~47 MH/s via Termux.
 
 ### 🤖 Android (miner)
 
-1. Install **Termux from [F-Droid](https://f-droid.org/packages/com.termux/)** (the Play Store build doesn't work). Requires **64-bit Android** (arm64-v8a): recent phones are; TV boxes often run 32-bit Android even on 64-bit chips, and then the miner won't build — the script tells you which case you're in.
+1. Install **Termux from [F-Droid](https://f-droid.org/packages/com.termux/)** (the Play Store build doesn't work). Requires **64-bit Android** (arm64-v8a): recent phones are; TV boxes often run 32-bit Android even on 64-bit chips; in that case the script builds the fallback engine (cpuminer-multi), which mines slower (~1–3 MH/s per core).
 2. In Termux:
    ```bash
    curl -fsSL https://raw.githubusercontent.com/criptohost/criptohost_mobile/main/setup-termux.sh | bash
