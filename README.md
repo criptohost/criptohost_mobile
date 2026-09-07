@@ -55,6 +55,8 @@ Capturas reais de um motorola moto g(60)s minerando a ~47 MH/s via Termux.
    ```
 4. Menu **[2]** = dashboard em `http://<ip-do-celular>:8091`. 🎉
 
+Monero/Salvium (RandomX) no celular? Só em Android 64 bits com 3 GB+: `pkg install cmake libuv` e `cd ~/criptohost_cpuminer && ./ch/build-xmrig.sh`, depois escolha um perfil `xmr-*`/`sal-*` no menu. Esquenta mais que SHA-256d: na tomada, poucas threads.
+
 Guia completo (desempenho por aparelho, bateria, Doze): [docs/ANDROID.md](docs/ANDROID.md).
 
 ### 🍎 iOS (painel da frota)
