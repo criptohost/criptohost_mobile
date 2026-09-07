@@ -43,7 +43,7 @@ Capturas reais de um motorola moto g(60)s minerando a ~47 MH/s via Termux.
 
 ### 🤖 Android (minerador)
 
-1. Instale o **Termux pelo [F-Droid](https://f-droid.org/packages/com.termux/)** (a versão da Play Store não funciona).
+1. Instale o **Termux pelo [F-Droid](https://f-droid.org/packages/com.termux/)** (a versão da Play Store não funciona). Precisa de **Android 64 bits** (arm64-v8a): celulares dos últimos anos são; TV boxes muitas vezes rodam Android 32 bits mesmo com chip 64 bits, e aí o minerador não compila — o script avisa qual é o caso.
 2. No Termux:
    ```bash
    curl -fsSL https://raw.githubusercontent.com/criptohost/criptohost_mobile/main/setup-termux.sh | bash
