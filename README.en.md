@@ -57,6 +57,8 @@ Real captures from a motorola moto g(60)s mining at ~47 MH/s via Termux.
 
 Monero/Salvium (RandomX) on the phone? Only on 64-bit Android with 3 GB+: `pkg install cmake libuv` then `cd ~/criptohost_cpuminer && ./ch/build-xmrig.sh`, and pick an `xmr-*`/`sal-*` profile in the menu. Runs hotter than SHA-256d: keep it plugged in, few threads.
 
+A phone that stays plugged in can be the fleet's **alert hub** (Config → *Alerts* tab → Telegram bot token and chat id): it messages you when any node goes down, switches pool, runs hot or gets shares rejected.
+
 Full guide (per-device performance, battery, Doze): [docs/ANDROID.en.md](docs/ANDROID.en.md).
 
 ### 🍎 iOS (fleet panel)
